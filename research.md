@@ -48,16 +48,34 @@
 
 **示例**：对于"Put_the_lid_on_the_pot_view"任务，世界模型生成 2 个不同的动作序列：
 
-<video src="demos/counterfactual/Put_the_lid_on_the_pot/success/Put_the_lid_on_the_pot_view_2.mp4"></video>
-<video src="demos/counterfactual/Put_the_lid_on_the_pot/fail/Put_the_lid_on_the_pot_view_2.mp4"></video>
+```html
+<video width="640" height="480" controls>
+  <source src="demos/counterfactual/Put_the_lid_on_the_pot/success/Put_the_lid_on_the_pot_view_2.mp4" type="video/mp4">
+</video>
+```
+
+```html
+<video width="640" height="480" controls>
+  <source src="demos/counterfactual/Put_the_lid_on_the_pot/fail/Put_the_lid_on_the_pot_view_2.mp4" type="video/mp4">
+</video>
+```
 
 系统选择其中的方案1在真实机器人上执行，大幅提升任务成功率。
 
 ### 泛化性能
 
 在未见场景和新任务上进行泛化评估，验证世界模型的预测和规划能力，充分展示方案的跨域泛化优势。
-<video src="demos/ood/Put_the_spoon_in_the_cup/1/20251115_154444_21316_Put_the_spoon_in_the_cup_view_2.mp4"></video>
-<video src="demos/ood/Put_the_spoon_in_the_cup/2/20251115_152429_35634_Put_the_spoon_in_the_cup_view_2.mp4"></video>
+```html
+<video width="640" height="480" controls>
+  <source src="demos/ood/Put_the_spoon_in_the_cup/1/20251115_154444_21316_Put_the_spoon_in_the_cup_view_2.mp4" type="video/mp4">
+</video>
+```
+
+```html
+<video width="640" height="480" controls>
+  <source src="demos/ood/Put_the_spoon_in_the_cup/2/20251115_152429_35634_Put_the_spoon_in_the_cup_view_2.mp4" type="video/mp4">
+</video>
+```
 
 
 
