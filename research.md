@@ -48,17 +48,23 @@
 
 **示例1**：对于"Pick up the marker and put it in the mug"任务，世界模型生成 9 个不同的动作序列：
 
-<video>
+
+<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+<video width="960" height="576" controls style="border-radius: 4px;">
 <source src="demos/counterfactual/Pick_up_the_marker_and_put_it_in_the_mug_35172.mp4" type="video/mp4" />
 </video>
+</div>
 
 系统选择其中的最佳的方案1在真实机器人上执行，大幅提升任务成功率。
 
 **示例2**：对于"Put the block in the bowl"任务，世界模型生成 9 个不同的动作序列：
 
-<video>
+
+<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+<video width="960" height="576" controls style="border-radius: 4px;">
 <source src="demos/counterfactual/Put_the_block_in_the_bowl_3687.mp4" type="video/mp4" />
 </video>
+</div>
 
 系统选择其中的最佳的方案2在真实机器人上执行，大幅提升任务成功率。
 
