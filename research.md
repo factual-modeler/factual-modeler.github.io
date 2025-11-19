@@ -74,13 +74,30 @@
 
 <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
 <video width="320" height="240" controls style="border-radius: 4px;">
+<source src="demos/ood/Pick_up_the_marker_and_put_it_in_the_mug/1/20251115_152748_36470_Pick_up_the_marker_and_put_it_in_the_mug_view_2.mp4" type="video/mp4" />
+</video>
+<video width="320" height="240" controls style="border-radius: 4px;">
+<source src="demos/ood/Pick_up_the_marker_and_put_it_in_the_mug/2/20251115_153116_35172_Pick_up_the_marker_and_put_it_in_the_mug_view_2.mp4" type="video/mp4" />
+</video>
+</div>
+
+<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+<video width="320" height="240" controls style="border-radius: 4px;">
+<source src="demos/ood/Put_the_pen_in_the_bowl/1/20251115_152712_26474_Put_the_pen_in_the_bowl_view_2.mp4" type="video/mp4" />
+</video>
+<video width="320" height="240" controls style="border-radius: 4px;">
+<source src="demos/ood/Put_the_pen_in_the_bowl/2/20251115_152808_8089_Put_the_pen_in_the_bowl_view_2.mp4" type="video/mp4" />
+</video>
+</div>
+
+<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+<video width="320" height="240" controls style="border-radius: 4px;">
 <source src="demos/ood/Put_the_spoon_in_the_cup/1/20251115_154444_21316_Put_the_spoon_in_the_cup_view_2.mp4" type="video/mp4" />
 </video>
 <video width="320" height="240" controls style="border-radius: 4px;">
 <source src="demos/ood/Put_the_spoon_in_the_cup/2/20251115_152429_35634_Put_the_spoon_in_the_cup_view_2.mp4" type="video/mp4" />
 </video>
 </div>
-
 
 
 ## 工业级实现
