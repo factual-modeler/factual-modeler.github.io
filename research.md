@@ -46,18 +46,13 @@
 
 由于 VLA 基于模仿学习，对环境变化高度敏感，微小偏差易累积放大。通过"想象验证"机制，我们先在虚拟空间验证动作序列的有效性，显著提高了执行鲁棒性。
 
-**示例**：对于"Put_the_lid_on_the_pot_view"任务，世界模型生成 2 个不同的动作序列：
+**示例**：对于"Pick up the marker and put it in the mug"任务，世界模型生成 9 个不同的动作序列：
 
-<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
-<video width="320" height="240" controls style="border-radius: 4px;">
-<source src="demos/counterfactual/Put_the_lid_on_the_pot/success/Put_the_lid_on_the_pot_view_2.mp4" type="video/mp4" />
+<video>
+<source src="demos/counterfactual/Pick_up_the_marker_and_put_it_in_the_mug_35172.mp4" type="video/mp4" />
 </video>
-<video width="320" height="240" controls style="border-radius: 4px;">
-<source src="demos/counterfactual/Put_the_lid_on_the_pot/fail/Put_the_lid_on_the_pot_view_2.mp4" type="video/mp4" />
-</video>
-</div>
 
-系统选择其中的方案1在真实机器人上执行，大幅提升任务成功率。
+系统选择其中的最佳的方案1在真实机器人上执行，大幅提升任务成功率。
 
 ### 泛化性能
 
