@@ -80,6 +80,14 @@
 </div>
 
 
+**示例2**：对于"Remove the block from the pot"任务，在2个不同场景下world model的rollout情况：
+<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+<video width="960" height="384" controls style="border-radius: 4px;">
+<source src="demos/ood/Remove_the_block_from_the_pot.mp4" type="video/mp4" />
+</video>
+</div>
+
+
 ## 工业级实现
 
 ### 高效数据引擎
